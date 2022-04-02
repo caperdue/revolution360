@@ -18,8 +18,8 @@
     <Home />
     <section>
       <div class="page-color">
-        <b-row class="p-3" align-h="center">
-          <b-col cols="2">
+        <b-row class="p-3" align-v="center">
+          <b-col>
             <b-button variant="link">
               <b-iconstack font-scale="2">
                 <b-icon

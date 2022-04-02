@@ -13,8 +13,6 @@
              <h6 class="mt-4">Reliability through 2-blade turbine design</h6>
           </b-col>
         </b-row>
-      
-
       </b-col>
     </b-row>
     <section class="m-5">

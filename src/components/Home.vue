@@ -6,15 +6,15 @@
       align-h="end"
       :img-src="require('@/assets/turbine.jpeg')"
     >
-      <b-col class="background-color p-3" md="9">
+      <b-col class="background-color p-4" md="9">
         <b-row>
           <b-col cols="12">
             <h1>Efficient, Powerful, and Cost-effective.</h1>
+             <h6 class="mt-4">Reliability through 2-blade turbine design</h6>
           </b-col>
         </b-row>
-        <b-row>
-          <h6 class="mt-4">Reliability through 2-blade turbine design</h6>
-        </b-row>
+      
+
       </b-col>
     </b-row>
     <section class="m-5">

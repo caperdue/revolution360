@@ -1,26 +1,19 @@
 <template>
   <div id="app">
-   <!-- <b-navbar >
-      <b-navbar-brand class="p-2" href="#">
-       
-      </b-navbar-brand>
-      
-    </b-navbar>-->
-<b-navbar toggleable="lg" variant="faded" type="light" class="page-color">
-    <b-navbar-brand href="#" class="ps-3 py-2"> <img
-          class="navbar-image"
-          :src="require('@/assets/revolution360.png')"
-        /></b-navbar-brand>
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar toggleable="lg" variant="faded" type="light" class="page-color">
+      <b-navbar-brand href="#" class="ps-3 py-2">
+        <img class="navbar-image" :src="require('@/assets/revolution360.png')"
+      /></b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav class="px-3 ms-auto">
-        <b-nav-item href="#">About</b-nav-item>
-        <b-nav-item href="#">Design</b-nav-item>
-        <b-nav-item href="#">Contact</b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="px-3 ms-auto">
+          <b-nav-item href="#">About</b-nav-item>
+          <b-nav-item href="#">Design</b-nav-item>
+          <b-nav-item href="#">Contact</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
 
     <Home />
     <section>
@@ -29,7 +22,12 @@
           <b-col cols="2">
             <b-button variant="link">
               <b-iconstack font-scale="2">
-                <b-icon stacked icon="circle-fill" class="icon-color" @click="console.log(0)"></b-icon>
+                <b-icon
+                  stacked
+                  icon="circle-fill"
+                  class="icon-color"
+                  @click="console.log(0)"
+                ></b-icon>
                 <b-icon
                   stacked
                   icon="instagram"

@@ -4,7 +4,6 @@
       class="image-overlay lighter"
       align-v="end"
       align-h="end"
-      :img-src="require('@/assets/turbine.jpeg')"
     >
       <b-col class="background-color p-4" md="9">
         <b-row>
@@ -29,7 +28,7 @@
           <b-img
             class="standard-border"
             :src="require('../assets/turbine2.jpeg')"
-            style="width: 100%"
+            fluid
           />
         </b-col>
         <b-col md="7">
@@ -79,7 +78,7 @@
             </b-col>
             <b-col md="5" class="text-center">
               <b-img
-                class="p-3" style="width: 100%"
+                class="p-3" fluid
                 src="https://www.energy.gov/sites/default/files/styles/full_article_width/public/2021-08/greenhouse-gas-emissions.jpg?itok=2n0qOGbB"
               />
               <p style="font-size: .8rem;">Wind produces a significantly less amount of CO2.</p>

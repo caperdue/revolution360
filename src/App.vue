@@ -9,6 +9,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="px-3 ms-auto">
           <b-nav-item href="/about">About</b-nav-item>
+          <b-nav-item href="/design">Design</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

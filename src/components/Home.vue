@@ -114,13 +114,13 @@
               https://www.energy.gov/eere/wind/articles/how-wind-energy-can-help-us-breathe-easier
             </p>
             <p>
-              Wind Turbine. Wikimedia Commons. (2006). Wikimedia. Retrieved from
-              https://commons.wikimedia.org/wiki/File:Mod-5B_Wind_turbine.jpg.
-            </p>
-            <p>
               Wind Market Reports: 2021 Edition. Energy.gov. (n.d.). Retrieved
               April 11, 2022, from
               https://www.energy.gov/eere/wind/wind-market-reports-2021-edition.
+            </p>
+            <p>
+              Wind Turbine. Wikimedia Commons. (2006). Wikimedia. Retrieved from
+              https://commons.wikimedia.org/wiki/File:Mod-5B_Wind_turbine.jpg.
             </p>
             <p>
               Workers on Wind Turbine. (2017). Clean Power. Retrieved from

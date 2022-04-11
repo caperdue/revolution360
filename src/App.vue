@@ -15,6 +15,7 @@
     </b-navbar>
 
     <router-view/>
+    
     <section>
       <div class="footer page-color">
         <b-row class="p-3" style="text-align:center;">
@@ -53,6 +54,7 @@
         </b-row>
       </div>
     </section>
+    
   </div>
 </template>
 

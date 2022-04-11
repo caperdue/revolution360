@@ -11,7 +11,7 @@
           background="#ababab"
           img-width="1024"
           img-height="480"
-          style="text-shadow: 1px 1px 2px #000; "
+          style="text-shadow: 1px 1px 2px #000"
           @sliding-start="onSlideStart"
           @sliding-end="onSlideEnd"
         >
@@ -22,7 +22,7 @@
             :img-src="require('../assets/turbine4.jpeg')"
           ></b-carousel-slide>
 
-<b-carousel-slide
+          <b-carousel-slide
             caption="Efficient Design"
             text="Revolution360's efficient design helps YOU save electricity costs reliably, slashing your electricity bills "
             class="black_text"
@@ -42,6 +42,36 @@
         </b-carousel>
       </b-col>
     </b-row>
+    <section>
+      <div class="mx-5 py-5">
+        <b-row>
+          <b-col>
+            <h5 class="mb-3">References</h5>
+            <p>
+              Gallery: Windflow. Syncwind Power Ltd. - gallery - we synchronise
+              the wind into the grid. (2021, June 7). Retrieved April 11, 2022,
+              from https://windflow.co.nz/Gallery.htm
+            </p>
+            <p>
+              James Brooks / Kodiak Daily Mirror Fairbanks Daily News-Miner.
+              (2013, January 21). New wind turbines begin turning on Kodiak's
+              Pillar Mountain. Miner. Retrieved April 11, 2022, from
+              https://www.newsminer.com/new-wind-turbines-begin-turning-on-kodiak-s-pillar-mountain/article_2dea64ab-204e-5bcb-b8de-5ed390004e27.html
+            </p>
+            <p>
+              Offshore Wind Turbine Development. (n.d.). Design - 2-B Energy –
+              Offshore Wind Turbine Development. Retrieved April 11, 2022, from
+              https://th.bing.com/th/id/OIP.qSWR6BM2Hh3z8FFNNxD3FwHaKn?pid=ImgDet&amp;rs=1.
+            </p>
+            <p>
+              Wind Turbine Animation. (n.d.). Divi. Retrieved April 11, 2022,
+              from
+              http://www.jd3d.co.uk/portfolio/wind-turbine-animation-for-422-south/.
+            </p>
+          </b-col>
+        </b-row>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -57,11 +87,10 @@ export default {
 </script>
 
 <style scoped>
-* {
+b-carousel {
   text-align: center;
 }
 img {
   max-height: 300px;
 }
-
 </style>

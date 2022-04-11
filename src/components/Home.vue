@@ -1,15 +1,11 @@
 <template>
   <div>
-    <b-row
-      class="image-overlay lighter"
-      align-v="end"
-      align-h="end"
-    >
+    <b-row class="image-overlay lighter" align-v="end" align-h="end">
       <b-col class="background-color p-4" md="9">
         <b-row>
           <b-col cols="12">
             <h1>Efficient, Powerful, and Cost-effective.</h1>
-             <h6 class="mt-4">Reliability through 2-blade turbine design</h6>
+            <h6 class="mt-4">Reliability through 2-blade turbine design</h6>
           </b-col>
         </b-row>
       </b-col>
@@ -54,36 +50,40 @@
     <section>
       <div class="mx-5 py-5">
         <b-row align-v="center">
-            <b-col md="7">
-               <h5 class="mb-3">Why Wind Power?</h5>
-              <p>
-                <span class="custom-bold">Wind power</span> is an alternative
-                form of energy that is considered a renewable energy source. It
-                is clean and readily available, especially through our services.
-                The blades on a wind turbine spin in order to generate
-                electricity. There are numerous benefits to using wind energy.
-              </p>
-              <p>
-                The U.S. wind industry as a whole supports 116,800 jobs. As a
-                whole, wind currently provides more than 10% of the country's
-                electricity. Greenhouse gas emissions from renewable sources is
-                also significantly lower (link here). Wind energy produces
-                around 11 grams of CO2 per kilowatt-hour, whereas coal is around
-                980g CO2/kWh and natural gas being 465g CO2/hWh.
-              </p>
-              <span class="custom-bold"
-                >The carbon footprint of wind power is almost 90 times less than
-                coal, and around 40 times less than natural gas.
-              </span>
-            </b-col>
-            <b-col md="5" class="text-center">
-              <b-img
-                class="p-3" fluid
-                src="https://www.energy.gov/sites/default/files/styles/full_article_width/public/2021-08/greenhouse-gas-emissions.jpg?itok=2n0qOGbB"
-              />
-              <p style="font-size: .8rem;">Wind produces a significantly less amount of CO2.</p>
-            </b-col>
-          </b-row>
+          <b-col md="7">
+            <h5 class="mb-3">Why Wind Power?</h5>
+            <p>
+              <span class="custom-bold">Wind power</span> is an alternative form
+              of energy that is considered a renewable energy source. It is
+              clean and readily available, especially through our services. The
+              blades on a wind turbine spin in order to generate electricity.
+              There are numerous benefits to using wind energy.
+            </p>
+            <p>
+              According to Energy.gov, the U.S. wind industry as a whole
+              supports 116,800 jobs. As a whole, wind currently provides more
+              than 10% of the country's electricity. Greenhouse gas emissions
+              from renewable sources is also significantly lower (link here).
+              Wind energy produces around 11 grams of CO2 per kilowatt-hour,
+              whereas coal is around 980g CO2/kWh and natural gas being 465g
+              CO2/hWh.
+            </p>
+            <span class="custom-bold"
+              >The carbon footprint of wind power is almost 90 times less than
+              coal, and around 40 times less than natural gas.
+            </span>
+          </b-col>
+          <b-col md="5" class="text-center">
+            <b-img
+              class="p-3"
+              fluid
+              src="https://www.energy.gov/sites/default/files/styles/full_article_width/public/2021-08/greenhouse-gas-emissions.jpg?itok=2n0qOGbB"
+            />
+            <p style="font-size: 0.8rem">
+              Wind produces a significantly less amount of CO2.
+            </p>
+          </b-col>
+        </b-row>
       </div>
     </section>
     <section>
@@ -100,6 +100,33 @@
             footprint. It must start with someone, and it can start with
             <span class="custom-bold">you.</span>
           </p>
+        </b-row>
+      </div>
+    </section>
+    <section>
+      <div class="mx-5 py-5">
+        <b-row align-v="center">
+          <b-col>
+            <h5 class="mb-3">References</h5>
+            <p>
+              How Wind Energy Can Help Us Breathe Easier. Energy.gov. (2021,
+              August 30). Retrieved April 11, 2022, from
+              https://www.energy.gov/eere/wind/articles/how-wind-energy-can-help-us-breathe-easier
+            </p>
+            <p>
+              Wind Turbine. Wikimedia Commons. (2006). Wikimedia. Retrieved from
+              https://commons.wikimedia.org/wiki/File:Mod-5B_Wind_turbine.jpg.
+            </p>
+            <p>
+              Wind Market Reports: 2021 Edition. Energy.gov. (n.d.). Retrieved
+              April 11, 2022, from
+              https://www.energy.gov/eere/wind/wind-market-reports-2021-edition.
+            </p>
+            <p>
+              Workers on Wind Turbine. (2017). Clean Power. Retrieved from
+              https://cleanpower.org/wp-content/uploads/2021/07/workers-on-wind-turbine.jpg.
+            </p>
+          </b-col>
         </b-row>
       </div>
     </section>

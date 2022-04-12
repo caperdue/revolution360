@@ -20,7 +20,7 @@
       <div class="footer page-color">
         <b-row class="p-3" style="text-align:center;">
           <b-col>
-            <b-button variant="link">
+            <b-button variant="link" target="_blank" href="https://www.instagram.com/revolution_.360/">
               <b-iconstack font-scale="2">
                 <b-icon
                   stacked
